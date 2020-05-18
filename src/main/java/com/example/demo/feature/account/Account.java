@@ -1,4 +1,4 @@
-package com.example.demo.fetature.account;
+package com.example.demo.feature.account;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

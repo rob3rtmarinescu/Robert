@@ -1,11 +1,11 @@
 package com.example.demo;
 
 
-import com.example.demo.fetature.account.Account;
-import com.example.demo.fetature.account.AccountRepository;
-import com.example.demo.fetature.account.AccountService;
+import com.example.demo.feature.account.Account;
+import com.example.demo.feature.account.AccountRepository;
+import com.example.demo.feature.account.AccountService;
 
-import com.example.demo.fetature.account.BankAccountNotFoundException;
+import com.example.demo.feature.account.BankAccountNotFoundException;
 import com.example.demo.web.client.RatesRepository;
 
 import org.junit.Test;
@@ -18,8 +18,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDateTime;
-
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 
